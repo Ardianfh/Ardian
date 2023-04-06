@@ -1,0 +1,85 @@
+/* body*/
+body{
+    padding: 5px;
+    scroll-behavior: smooth;
+}
+body, main {
+    margin: 0;
+    padding: 10 px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+.title {
+    margin-top: 20px;
+    text-align: center;
+}
+.subtitle{
+    margin-top: 10px 0px;
+    text-align: center;
+}
+/*header*/
+.menu{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu > a {
+    text-decoration: none;
+}
+.menu-luassegitiga {
+    background-color: turquoise;
+    color: whitesmoke;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+.menu-kllsegitiga {
+    background-color: white;
+    color: turquoise;
+    width: 100%;
+    padding: 10px 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+/*isi*/
+.card{
+     border: 1px turquoise solid;
+        box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+        padding: 10px;
+}
+.form-segitiga{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.form-hitung > h3{
+    text-align: center
+}
+.form-segitiga > input{
+    padding: 2px 0px;
+    border-radius: 10px;     
+    width: 100%;   
+}
+.form-segitiga > button{
+    padding: 8px 8px;
+    background-color: turquoise;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.rumusluas{
+    text-align: center;
+} 
+.rumuskeliling{
+    text-align: center;
+}
